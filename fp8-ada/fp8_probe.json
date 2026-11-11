@@ -1,0 +1,134 @@
+{
+ "gpu": "NVIDIA GeForce RTX 4060 Ti",
+ "capability": [
+  8,
+  9
+ ],
+ "torch": "2.14.1+cu130",
+ "results": [
+  {
+   "variant": "bf16",
+   "batch": 4,
+   "seq": 64,
+   "tokens": 256,
+   "tokens_mod16": 0,
+   "ok": true,
+   "loss": 14.5577,
+   "peak_mib": 1780,
+   "step_s": 0.464
+  },
+  {
+   "variant": "bf16",
+   "batch": 4,
+   "seq": 86,
+   "tokens": 344,
+   "tokens_mod16": 8,
+   "ok": true,
+   "loss": 14.2482,
+   "peak_mib": 2051,
+   "step_s": 0.156
+  },
+  {
+   "variant": "bf16",
+   "batch": 1,
+   "seq": 12,
+   "tokens": 12,
+   "tokens_mod16": 12,
+   "ok": true,
+   "loss": 15.767,
+   "peak_mib": 1007,
+   "step_s": 0.207
+  },
+  {
+   "variant": "bf16",
+   "batch": 1,
+   "seq": 16,
+   "tokens": 16,
+   "tokens_mod16": 0,
+   "ok": true,
+   "loss": 17.3144,
+   "peak_mib": 1019,
+   "step_s": 0.12
+  },
+  {
+   "variant": "soup",
+   "batch": 4,
+   "seq": 64,
+   "tokens": 256,
+   "tokens_mod16": 0,
+   "ok": true,
+   "loss": 14.2197,
+   "peak_mib": 2698,
+   "step_s": 0.954
+  },
+  {
+   "variant": "soup",
+   "batch": 4,
+   "seq": 86,
+   "tokens": 344,
+   "tokens_mod16": 8,
+   "ok": false,
+   "error": "RuntimeError: Expected trailing dimension of mat1 to be divisible by 16 but got mat1 shape: (151936x344)."
+  },
+  {
+   "variant": "soup",
+   "batch": 1,
+   "seq": 12,
+   "tokens": 12,
+   "tokens_mod16": 12,
+   "ok": false,
+   "error": "RuntimeError: Expected trailing dimension of mat1 to be divisible by 16 but got mat1 shape: (151936x12)."
+  },
+  {
+   "variant": "soup",
+   "batch": 1,
+   "seq": 16,
+   "tokens": 16,
+   "tokens_mod16": 0,
+   "ok": true,
+   "loss": 15.3945,
+   "peak_mib": 2173,
+   "step_s": 0.912
+  },
+  {
+   "variant": "skip_lm_head",
+   "batch": 4,
+   "seq": 64,
+   "tokens": 256,
+   "tokens_mod16": 0,
+   "ok": true,
+   "loss": 14.3606,
+   "peak_mib": 1862,
+   "step_s": 0.91
+  },
+  {
+   "variant": "skip_lm_head",
+   "batch": 4,
+   "seq": 86,
+   "tokens": 344,
+   "tokens_mod16": 8,
+   "ok": false,
+   "error": "RuntimeError: Expected trailing dimension of mat1 to be divisible by 16 but got mat1 shape: (896x344)."
+  },
+  {
+   "variant": "skip_lm_head",
+   "batch": 1,
+   "seq": 12,
+   "tokens": 12,
+   "tokens_mod16": 12,
+   "ok": false,
+   "error": "RuntimeError: Expected trailing dimension of mat1 to be divisible by 16 but got mat1 shape: (896x12)."
+  },
+  {
+   "variant": "skip_lm_head",
+   "batch": 1,
+   "seq": 16,
+   "tokens": 16,
+   "tokens_mod16": 0,
+   "ok": true,
+   "loss": 15.7262,
+   "peak_mib": 1034,
+   "step_s": 0.841
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+diff --git a/src/soup_cli/trainer/sft.py b/src/soup_cli/trainer/sft.py
+index e5d65fb..7572151 100644
+--- a/src/soup_cli/trainer/sft.py
++++ b/src/soup_cli/trainer/sft.py
+@@ -996,6 +996,8 @@ class SFTTrainerWrapper(StreamingSetupMixin):
+         training_args = self._as_sft_config(
+             training_args, cfg.data.max_length, packing=tcfg.packing,
+         )
++        if tcfg.quantization_aware == "fp8" and hasattr(training_args, "pad_to_multiple_of"):
++            training_args.pad_to_multiple_of = 16
+ 
+         # --- Trainer ---
+         trainer_kwargs = {
