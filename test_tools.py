@@ -95,3 +95,29 @@ def test_ablate_runs_real_processes_and_writes_json(tmp_path):
     data = json.loads(out.read_text())
     assert data["order"] == ["fast", "slow", "slow", "fast"]
     assert data["summary"]["slow"]["median_s"] > data["summary"]["fast"]["median_s"]
+
+
+def test_typefuzz_discovers_models_and_builds_ones_with_required_fields(tmp_path):
+    pkg = tmp_path / "soup_cli" / "config"
+    pkg.mkdir(parents=True)
+    (tmp_path / "soup_cli" / "__init__.py").write_text("")
+    (pkg / "__init__.py").write_text("")
+    (pkg / "schema.py").write_text(
+        "from typing import List\n"
+        "from pydantic import BaseModel\n"
+        "class Needs(BaseModel):\n"
+        "    train: List[str]\n"      # required, gets a throwaway value
+        "    limit: int = 5\n"
+        "class NotAModel:\n"
+        "    limit = 1\n"
+    )
+    out, md = tmp_path / "o.json", tmp_path / "o.md"
+    proc = subprocess.run(
+        [sys.executable, str(HERE / "schema_typefuzz.py"), str(tmp_path), "--json", str(out), "--markdown", str(md)],
+        capture_output=True, text=True)
+    rows = json.loads(out.read_text())
+    assert {r["model"] for r in rows} == {"Needs"}
+    assert {r["field"] for r in rows} == {"limit"}  # `train` is only scaffolding, not probed
+    assert any(r["probe"] == "bool_true" and r["outcome"] == "accepted" for r in rows)
+    assert "| Needs | 1 | 1 | 0 |" in md.read_text()
+    assert proc.returncode == 1

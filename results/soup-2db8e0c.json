@@ -192,6 +192,630 @@
     "detail": ""
   },
   {
+    "model": "DataConfig",
+    "field": "val_split",
+    "kind": "float",
+    "probe": "bool_true",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "val_split",
+    "kind": "float",
+    "probe": "bool_false",
+    "outcome": "accepted",
+    "detail": "0.0"
+  },
+  {
+    "model": "DataConfig",
+    "field": "val_split",
+    "kind": "float",
+    "probe": "str",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "val_split",
+    "kind": "float",
+    "probe": "list",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "val_split",
+    "kind": "float",
+    "probe": "none",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "val_split",
+    "kind": "float",
+    "probe": "huge_int",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "max_length",
+    "kind": "int",
+    "probe": "bool_true",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "max_length",
+    "kind": "int",
+    "probe": "bool_false",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "max_length",
+    "kind": "int",
+    "probe": "str",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "max_length",
+    "kind": "int",
+    "probe": "list",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "max_length",
+    "kind": "int",
+    "probe": "none",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "max_length",
+    "kind": "int",
+    "probe": "huge_int",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "raft_shuffle_seed",
+    "kind": "int",
+    "probe": "bool_true",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "raft_shuffle_seed",
+    "kind": "int",
+    "probe": "bool_false",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "raft_shuffle_seed",
+    "kind": "int",
+    "probe": "str",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "raft_shuffle_seed",
+    "kind": "int",
+    "probe": "list",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "raft_shuffle_seed",
+    "kind": "int",
+    "probe": "none",
+    "outcome": "accepted",
+    "detail": "None"
+  },
+  {
+    "model": "DataConfig",
+    "field": "raft_shuffle_seed",
+    "kind": "int",
+    "probe": "huge_int",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "replay_ratio",
+    "kind": "float",
+    "probe": "bool_true",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "replay_ratio",
+    "kind": "float",
+    "probe": "bool_false",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "replay_ratio",
+    "kind": "float",
+    "probe": "str",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "replay_ratio",
+    "kind": "float",
+    "probe": "list",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "replay_ratio",
+    "kind": "float",
+    "probe": "none",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "replay_ratio",
+    "kind": "float",
+    "probe": "huge_int",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "replay_seed",
+    "kind": "int",
+    "probe": "bool_true",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "replay_seed",
+    "kind": "int",
+    "probe": "bool_false",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "replay_seed",
+    "kind": "int",
+    "probe": "str",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "replay_seed",
+    "kind": "int",
+    "probe": "list",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "replay_seed",
+    "kind": "int",
+    "probe": "none",
+    "outcome": "accepted",
+    "detail": "None"
+  },
+  {
+    "model": "DataConfig",
+    "field": "replay_seed",
+    "kind": "int",
+    "probe": "huge_int",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "buffer_size",
+    "kind": "int",
+    "probe": "bool_true",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "buffer_size",
+    "kind": "int",
+    "probe": "bool_false",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "buffer_size",
+    "kind": "int",
+    "probe": "str",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "buffer_size",
+    "kind": "int",
+    "probe": "list",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "buffer_size",
+    "kind": "int",
+    "probe": "none",
+    "outcome": "accepted",
+    "detail": "None"
+  },
+  {
+    "model": "DataConfig",
+    "field": "buffer_size",
+    "kind": "int",
+    "probe": "huge_int",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "shards",
+    "kind": "int",
+    "probe": "bool_true",
+    "outcome": "accepted",
+    "detail": "1"
+  },
+  {
+    "model": "DataConfig",
+    "field": "shards",
+    "kind": "int",
+    "probe": "bool_false",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "shards",
+    "kind": "int",
+    "probe": "str",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "shards",
+    "kind": "int",
+    "probe": "list",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "shards",
+    "kind": "int",
+    "probe": "none",
+    "outcome": "accepted",
+    "detail": "None"
+  },
+  {
+    "model": "DataConfig",
+    "field": "shards",
+    "kind": "int",
+    "probe": "huge_int",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "image_min_pixels",
+    "kind": "int",
+    "probe": "bool_true",
+    "outcome": "accepted",
+    "detail": "1"
+  },
+  {
+    "model": "DataConfig",
+    "field": "image_min_pixels",
+    "kind": "int",
+    "probe": "bool_false",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "image_min_pixels",
+    "kind": "int",
+    "probe": "str",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "image_min_pixels",
+    "kind": "int",
+    "probe": "list",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "image_min_pixels",
+    "kind": "int",
+    "probe": "none",
+    "outcome": "accepted",
+    "detail": "None"
+  },
+  {
+    "model": "DataConfig",
+    "field": "image_min_pixels",
+    "kind": "int",
+    "probe": "huge_int",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "image_max_pixels",
+    "kind": "int",
+    "probe": "bool_true",
+    "outcome": "accepted",
+    "detail": "1"
+  },
+  {
+    "model": "DataConfig",
+    "field": "image_max_pixels",
+    "kind": "int",
+    "probe": "bool_false",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "image_max_pixels",
+    "kind": "int",
+    "probe": "str",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "image_max_pixels",
+    "kind": "int",
+    "probe": "list",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "image_max_pixels",
+    "kind": "int",
+    "probe": "none",
+    "outcome": "accepted",
+    "detail": "None"
+  },
+  {
+    "model": "DataConfig",
+    "field": "image_max_pixels",
+    "kind": "int",
+    "probe": "huge_int",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "video_fps",
+    "kind": "float",
+    "probe": "bool_true",
+    "outcome": "accepted",
+    "detail": "1.0"
+  },
+  {
+    "model": "DataConfig",
+    "field": "video_fps",
+    "kind": "float",
+    "probe": "bool_false",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "video_fps",
+    "kind": "float",
+    "probe": "str",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "video_fps",
+    "kind": "float",
+    "probe": "list",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "video_fps",
+    "kind": "float",
+    "probe": "none",
+    "outcome": "accepted",
+    "detail": "None"
+  },
+  {
+    "model": "DataConfig",
+    "field": "video_fps",
+    "kind": "float",
+    "probe": "huge_int",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "video_maxlen",
+    "kind": "int",
+    "probe": "bool_true",
+    "outcome": "accepted",
+    "detail": "1"
+  },
+  {
+    "model": "DataConfig",
+    "field": "video_maxlen",
+    "kind": "int",
+    "probe": "bool_false",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "video_maxlen",
+    "kind": "int",
+    "probe": "str",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "video_maxlen",
+    "kind": "int",
+    "probe": "list",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "DataConfig",
+    "field": "video_maxlen",
+    "kind": "int",
+    "probe": "none",
+    "outcome": "accepted",
+    "detail": "None"
+  },
+  {
+    "model": "DataConfig",
+    "field": "video_maxlen",
+    "kind": "int",
+    "probe": "huge_int",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "EvalGateConfig",
+    "field": "every_n_epochs",
+    "kind": "int",
+    "probe": "bool_true",
+    "outcome": "accepted",
+    "detail": "1"
+  },
+  {
+    "model": "EvalGateConfig",
+    "field": "every_n_epochs",
+    "kind": "int",
+    "probe": "bool_false",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "EvalGateConfig",
+    "field": "every_n_epochs",
+    "kind": "int",
+    "probe": "str",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "EvalGateConfig",
+    "field": "every_n_epochs",
+    "kind": "int",
+    "probe": "list",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "EvalGateConfig",
+    "field": "every_n_epochs",
+    "kind": "int",
+    "probe": "none",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "EvalGateConfig",
+    "field": "every_n_epochs",
+    "kind": "int",
+    "probe": "huge_int",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "EvalGateConfig",
+    "field": "regression_threshold",
+    "kind": "float",
+    "probe": "bool_true",
+    "outcome": "accepted",
+    "detail": "1.0"
+  },
+  {
+    "model": "EvalGateConfig",
+    "field": "regression_threshold",
+    "kind": "float",
+    "probe": "bool_false",
+    "outcome": "accepted",
+    "detail": "0.0"
+  },
+  {
+    "model": "EvalGateConfig",
+    "field": "regression_threshold",
+    "kind": "float",
+    "probe": "str",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "EvalGateConfig",
+    "field": "regression_threshold",
+    "kind": "float",
+    "probe": "list",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "EvalGateConfig",
+    "field": "regression_threshold",
+    "kind": "float",
+    "probe": "none",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "EvalGateConfig",
+    "field": "regression_threshold",
+    "kind": "float",
+    "probe": "huge_int",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
     "model": "TrainingConfig",
     "field": "epochs",
     "kind": "int",
@@ -5520,97 +6144,97 @@
     "detail": ""
   },
   {
-    "model": "EvalGateConfig",
-    "field": "every_n_epochs",
-    "kind": "int",
-    "probe": "bool_true",
-    "outcome": "accepted",
-    "detail": "1"
-  },
-  {
-    "model": "EvalGateConfig",
-    "field": "every_n_epochs",
-    "kind": "int",
-    "probe": "bool_false",
-    "outcome": "rejected",
-    "detail": ""
-  },
-  {
-    "model": "EvalGateConfig",
-    "field": "every_n_epochs",
-    "kind": "int",
-    "probe": "str",
-    "outcome": "rejected",
-    "detail": ""
-  },
-  {
-    "model": "EvalGateConfig",
-    "field": "every_n_epochs",
-    "kind": "int",
-    "probe": "list",
-    "outcome": "rejected",
-    "detail": ""
-  },
-  {
-    "model": "EvalGateConfig",
-    "field": "every_n_epochs",
-    "kind": "int",
-    "probe": "none",
-    "outcome": "rejected",
-    "detail": ""
-  },
-  {
-    "model": "EvalGateConfig",
-    "field": "every_n_epochs",
-    "kind": "int",
-    "probe": "huge_int",
-    "outcome": "rejected",
-    "detail": ""
-  },
-  {
-    "model": "EvalGateConfig",
-    "field": "regression_threshold",
+    "model": "ShipConfig",
+    "field": "forgetting_threshold",
     "kind": "float",
     "probe": "bool_true",
     "outcome": "accepted",
     "detail": "1.0"
   },
   {
-    "model": "EvalGateConfig",
-    "field": "regression_threshold",
+    "model": "ShipConfig",
+    "field": "forgetting_threshold",
     "kind": "float",
     "probe": "bool_false",
     "outcome": "accepted",
     "detail": "0.0"
   },
   {
-    "model": "EvalGateConfig",
-    "field": "regression_threshold",
+    "model": "ShipConfig",
+    "field": "forgetting_threshold",
     "kind": "float",
     "probe": "str",
     "outcome": "rejected",
     "detail": ""
   },
   {
-    "model": "EvalGateConfig",
-    "field": "regression_threshold",
+    "model": "ShipConfig",
+    "field": "forgetting_threshold",
     "kind": "float",
     "probe": "list",
     "outcome": "rejected",
     "detail": ""
   },
   {
-    "model": "EvalGateConfig",
-    "field": "regression_threshold",
+    "model": "ShipConfig",
+    "field": "forgetting_threshold",
     "kind": "float",
     "probe": "none",
     "outcome": "rejected",
     "detail": ""
   },
   {
-    "model": "EvalGateConfig",
-    "field": "regression_threshold",
+    "model": "ShipConfig",
+    "field": "forgetting_threshold",
     "kind": "float",
+    "probe": "huge_int",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "ShipConfig",
+    "field": "noise_floor",
+    "kind": "int",
+    "probe": "bool_true",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "ShipConfig",
+    "field": "noise_floor",
+    "kind": "int",
+    "probe": "bool_false",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "ShipConfig",
+    "field": "noise_floor",
+    "kind": "int",
+    "probe": "str",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "ShipConfig",
+    "field": "noise_floor",
+    "kind": "int",
+    "probe": "list",
+    "outcome": "rejected",
+    "detail": ""
+  },
+  {
+    "model": "ShipConfig",
+    "field": "noise_floor",
+    "kind": "int",
+    "probe": "none",
+    "outcome": "accepted",
+    "detail": "None"
+  },
+  {
+    "model": "ShipConfig",
+    "field": "noise_floor",
+    "kind": "int",
     "probe": "huge_int",
     "outcome": "rejected",
     "detail": ""
